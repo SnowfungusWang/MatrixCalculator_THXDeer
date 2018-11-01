@@ -1,5 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+=======
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+>>>>>>> 080a123aae522eb282b03468062cf4b3628f93ce
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
@@ -14,19 +18,30 @@
     <ProjectGuid>{AF5061D4-8646-4070-9A2B-CBABBFB03C5F}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>MatrixCalculator</RootNamespace>
+<<<<<<< HEAD
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+=======
+>>>>>>> 080a123aae522eb282b03468062cf4b3628f93ce
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
+<<<<<<< HEAD
     <PlatformToolset>v141</PlatformToolset>
+=======
+    <PlatformToolset>v120</PlatformToolset>
+>>>>>>> 080a123aae522eb282b03468062cf4b3628f93ce
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
+<<<<<<< HEAD
     <PlatformToolset>v141</PlatformToolset>
+=======
+    <PlatformToolset>v120</PlatformToolset>
+>>>>>>> 080a123aae522eb282b03468062cf4b3628f93ce
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -80,7 +95,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.c" />
+<<<<<<< HEAD
     <ClCompile Include="Matrix.cpp" />
+=======
+>>>>>>> 080a123aae522eb282b03468062cf4b3628f93ce
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
