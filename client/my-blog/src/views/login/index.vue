@@ -3,8 +3,8 @@
     <div class="site-body">
       <div class="login-body">
         <el-row>
-          <el-col span='10'>
-            <span>姓名</span>
+          <el-col span='int(15)'>
+            <span>小宝贝的姓名</span>
           </el-col>
           <el-col span=14>
             <el-input></el-input>
@@ -12,7 +12,7 @@
         </el-row>
         <el-row>
           <el-col span=10>
-            <span>Token</span>
+            <span>小宝贝的Token</span>
           </el-col>
           <el-col span=14>
             <el-input></el-input>
