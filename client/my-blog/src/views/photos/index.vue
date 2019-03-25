@@ -4,7 +4,7 @@
       <div class="title">{{title}}</div>
       <div class="content">
         <el-carousel :interval="5000" arrow="always">
-          <el-carousel-item v-for="item in 4" :key="item">
+          <el-carousel-item v-for="item in 6" :key="item">
             <h3>{{ item }}</h3>
           </el-carousel-item>
         </el-carousel>
@@ -17,10 +17,9 @@
 export default {
   data: function() {
     return {
-      title: "photo",
-      item: "1"
+      title: "photo"
     };
-  }
+  },
 };
 </script>
 <style lang = 'scss'>
@@ -33,9 +32,9 @@ export default {
   font-family: "Courier New", Courier, monospace;
   font-size: 1.4em;
   .photo-container {
-    margin-top: 4%;
+    /* margin-top: 4%; */
     position: absolute;
-    width: 95%;
+    width: 100%;
     height: 50%;
     left: 50%;
     padding: 2%;
