@@ -1,9 +1,8 @@
 <template>
   <div class="header-body">
-    <div class="header-icon">{{t}}</div>
-    <div class="header-fill">a</div>
+    <div class="header-icon"></div>
+    <div class="header-fill"></div>
     <div class="header-navigation">
-        b
     </div>
   </div>
 </template>
@@ -21,6 +20,7 @@ export default {
 <style lang="scss">
 .header-body {
   height: fit-content;
+  max-height: 5%;
   width: 100%;
   background-color: aquamarine;
   display: flex;
