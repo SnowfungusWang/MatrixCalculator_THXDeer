@@ -28,6 +28,7 @@ export default {
   div {
     padding: 1%;
     height: 100%;
+    
   }
   .header-icon {
     flex: 1 0 auto;
