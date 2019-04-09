@@ -38,7 +38,7 @@ export default {
 
 <style lang="scss">
 .login-main {
-  background-color: #dedbdb;
+  background-color: #e0578557;
   height: calc(100%);
   display: flex;
   justify-content: center;
